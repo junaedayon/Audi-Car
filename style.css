@@ -1,0 +1,523 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+.menuAndNav {
+    overflow: hidden;
+}
+
+.logo {
+    width: 80px;
+    margin-left: 25px;
+    float: left;
+    margin-right: 20px;
+}
+
+ul.menu {
+    /* list-style-type: none; */
+    width: 990px;
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+ul.menu li {
+    /* list-style: none; */
+    list-style-type: none;
+}
+
+ul.menu li a {
+    text-decoration: none;
+    float: left;
+    padding: 22px;
+    font-size: 20px;
+    color: black;
+    transition: 0.1s;
+}
+ul.menu li a:hover {
+    color: #999;
+}
+#first {
+    background-image: url("wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 515px;
+}
+.wallpaerWrap {
+    overflow: hidden;
+}
+
+.wallpaperHead h1 {
+    color: white;
+    padding: 60px;
+    font-size: 75px;
+    margin-bottom: -20px;
+}
+
+.wallpaperHead p {
+    padding-left: 60px;
+    /* color: #ddd; */
+    font-size: 27px;
+    width: 608px;
+    line-height: 40px;
+    color: antiquewhite;
+    font-weight: normal;
+}
+.wallpaerInput {
+    overflow: hidden;
+    margin-top:15px
+}
+
+.vieoffers {
+    /* padding: 0px; */
+    float: left;
+    padding-left: -18pxx;
+    margin-left: 60px;
+    /* margin-top: 20px; */
+}
+
+.vieoffers button {
+    padding: 17px 55px;
+    font-size: 22px;
+    text-align: center;
+    background-color: white;
+    border: none;
+    transition: 0.1s;
+}
+.secondbtn {
+    /* padding-left: 50px; */
+}
+
+.secondbtn button {
+    padding: 17px 55px;
+    background-color: transparent;
+    border: 1px solid #fff6f6;
+    color: white;
+    margin-left: 10px;
+    font-size: 21px;
+    transition: 0.1s;
+}
+.vieoffers button:hover {
+    background-color: gray;
+}
+.secondbtn button:hover {
+    border: 1px solid gray;
+    color: gray;
+}
+.container {
+    width: 1700px;
+    margin-left: 45px;
+}
+
+.modelTitle {
+    overflow: hidden;
+}
+
+.modelTitle h1 {
+    float: left;
+    /* padding: 17px; */
+    font-size: 40px;
+    font-weight: 300;
+    /* text-decoration: underline; */
+    border-bottom: 1px solid black;
+    margin-top: 16px;
+    /* padding-right: 0px; */
+}
+
+.modelTitle h1:last-child {
+    /* text-decoration: none; */
+    border: none;
+    color: gray;
+    margin-left: 40px;
+}
+.modelImage {
+    overflow: hidden;
+}
+
+.singlemodel {
+    width: 300px;
+    float: left;
+    margin-top: 20px;
+    margin-right: 35px;
+    transition: 0.3s;
+}
+.singletitle h2 {
+    text-align: center;
+    font-weight: 400;
+}
+
+.singletitle {
+    margin-top: 10px;
+    width: 250px;
+}
+.singlemodel:hover img {
+    transform: scale(1.1)
+  
+}
+.singlemodel:hover .singletitle h2 {
+    color: gray;
+    text-decoration: underline;
+    font-weight: 700;
+}
+section#doublePic {
+    overflow: hidden;
+}
+.fullOk {
+    overflow: hidden;
+    margin-top: 60px;
+}
+
+.singleOk {
+    width: 980px;
+    float: left;
+}
+
+.singleOk img {width: 100%;}
+
+.singleOky {
+    width: 790px;
+    float: right;
+    height: 550px;
+}
+
+.singleOky img {
+    width: 100%;
+    height: 100%;
+}
+
+.okyImage {
+    height: 550px;
+}
+.okytitle {
+    /* bottom: 530px; */
+}
+
+.okytitle h1 {
+    /* margin-top: -49px; */
+    /* top: 0px; */
+    /* bottom: 0px; */
+    /* margin-bottom: 399px; */
+    margin-top: -500px;
+    color: #2fa057;
+    margin-left: 80px;
+    font-size: 45px;
+    font-weight: 300;
+}
+
+.oktitle h1 {
+    margin-top: -500px;
+    margin-left: 80px;
+    color: #fcfcfc;
+    font-size: 80px;
+}
+
+.oktitle p {
+    width: 500px;
+    font-size: 27px;
+    margin-left: 80px;
+    line-height: 47px;
+    color: white;
+}
+
+
+
+.okbtn button {
+    padding: 15px 60px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-left: 78px;
+    margin-top: 224px;
+    background: transparent;
+    border: 3px solid #121111;
+    color: #121111;
+    font-weight: bolder;
+    transition: 0.1s;
+}
+.okybtn button {
+    margin-left: 80px;
+    margin-top: 345px;
+    padding: 15px 60px;
+    font-size: 16px;
+    background: transparent;
+    border: 3px solid #121111;
+    color: #121111;
+    letter-spacing: 1px;
+    font-weight: bolder;
+    transition: 0.1s;
+}
+.okybtn:hover button {
+    border: 3px solid darkgray;
+    color: darkgray;
+}
+.okbtn:hover button {
+
+    border: 3px solid darkgray;
+    color: darkgray;
+
+}
+.fullAdd {
+    margin-top: 110px;
+    overflow: hidden;
+}
+
+.singleAdd {
+    width: 560px;
+    float: left;
+    margin-right: 10px;
+}
+
+.singleAdd:last-child {
+    margin-right: 0px;
+}
+.siImage img {
+    width: 100%;
+}
+.singleAdd h1 {
+    margin-top: 20px;
+    font-size: 40px;
+    font-weight: 300;
+    transition: 0.1s;
+}
+.singleAdd:hover h1 {
+    color: darkgray;
+}
+
+.iconshead h1 {
+    text-align: center;
+    font-size: 80px;
+    margin-top: 71px;
+    font-weight: 400;
+}
+.menuIcons {
+    overflow: hidden;
+}
+.singleIcons {
+    width: 270px;
+    float: left;
+    /* margin-left: 24px; */
+    font-size: 35px;
+    margin-top: 60px;
+    margin-left: 169px;
+}
+
+.singleIcons a {
+    color: gray;
+    /* margin-bottom: 48px; */
+}
+.singleIcons h1 {
+    margin-top: 16px;
+    font-size: 30px;
+    margin-left: -30px;
+    font-weight: 300;
+}
+.singleIcons a i {
+    font-size: 55px;
+}
+
+.locatedDealer {
+    width: 50%;
+}
+.locatedDealer {
+    background-color: #ddd;
+    float: left;
+    margin-bottom: -2px;
+}
+
+.fullDealer {
+    margin-top: 60px;
+}
+.containerf {
+    margin: 50px;
+}
+.dealerTitle h1 {
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.dealerTitle p {
+    font-size: 25px;
+    width: 500px;
+    margin-bottom: 80px;
+    line-height: 40px;
+    letter-spacing: 2px;
+}
+.dealerInput input {
+    width: 100%;
+    padding: 30px 30px;
+    border: none;
+    /* border: 1px solid red; */
+    background-color: #ddd;
+    border-bottom: 1px solid black;
+    font-size: 26px;
+    /* float: left; */
+    /* text-align: center; */
+    margin-bottom: 20px;
+}
+.dealerButton button {
+    padding: 15px 100px;
+    font-size: x-large;
+    background: black;
+    color: white;
+    border: none;
+    transition: 0.1s;
+}
+.dealerButton:hover button {
+    opacity: 0.5;
+}
+.dealerImage {
+    background-image: url("wow.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 50%;
+}
+.fullDealer {
+    overflow: hidden;
+}
+
+section#dealer {
+    position: relative;
+}
+
+.dealerImage {
+    position: absolute;
+    height: 50px;
+    margin-left: 50%;
+    height: -webkit-fill-available;
+}
+#list {
+    background-color: #ddd;
+    height: 500px;
+}
+.fullList {
+    margin-left: 110px;
+    overflow: hidden;
+    margin-top: 70px;
+}
+
+.singlelist {
+    float: left;
+    width: 400px;
+}
+.singlelist h1 {
+    font-size: 41px;
+    font-weight: 300;
+    margin-bottom: 30px;
+    margin-top: 70px;
+}
+
+ul.hmm li {
+    list-style-type: none;
+}
+
+ul.hmm li a {
+    text-decoration: none;
+    color: black;
+    line-height: 45px;
+    font-size: 26px;
+    font-weight: 300;
+}
+footer {
+    background-color: #4c4c4c;
+}
+.footerIcons {
+    overflow: hidden;
+    margin: 70px;
+    /* width: 300px; */
+    margin-left: 150px;
+}
+
+.footerSingleIcons {
+    float: left;
+    /* margin-right: -11px; */
+    width: 200px;
+    margin-top: 51px;
+    margin-right: 224px;
+}
+
+.sIcons i {
+    font-size: 60px;
+    margin-bottom: 25px;
+    color: #999;
+    background-color: transparent;
+    margin-left: 33px;
+}
+
+.footerSingleIcons h2 {
+    font-size: 30px;
+    font-weight: 300;
+    color: #999;
+}
+
+.footerSingleIcons {
+    border-right: 1px solid #999;
+    /* margin-left: 0px; */
+}
+
+.footerSingleIcons:last-child {
+    /* margin-left: 0; */
+    /* border: none; */
+}
+.footerSingleIcons:nth-child(4) {
+    border: none;
+    margin-right: 0px;
+}
+
+.footerSingleIcons:last-child {
+    border: none;
+    margin-right: 0px;
+}
+
+
+.footerlist {
+    margin-left: 150px;
+    overflow: hidden;
+}
+ul.footerhuhu {
+    overflow: hidden;
+}
+li.footerboss {
+    float: left;
+    list-style-type: none;
+    margin-right: 50px;
+}
+li.footerboss a {
+    text-decoration: none;
+    /* color: black; */
+    font-size: 27px;
+    color: #999;
+    /* margin-bottom: 13px; */
+}
+ul.footerhuhu li a:hover {
+    color: black;
+}
+.footerSocial {
+    margin-left: 150px;
+    margin-top: 70px;
+    font-size: 45px;
+    /* margin-right: 101px; */
+}
+.footerSocial a {
+    color: #999;
+    /* padding: 26px; */
+    padding-right: 30px;
+}
+.lastline {
+    /* margin: 150px; */
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 54px;
+    border-top: 1px solid #999;
+}
+.lastline h2 {
+    margin-top: 30px;
+    font-size: 35px;
+    font-weight: 300;
+    color: #999;
+    letter-spacing: 1px;
+    padding-bottom: 50px;
+}
